@@ -3,6 +3,7 @@ package com.innerclass;
 public class Button {
     private String title;
     private OnClickListener onClickLister;
+    private int num;
 
     public Button(String title) {
         this.title = title;
